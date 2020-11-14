@@ -18,7 +18,8 @@ ul{
     background-color: rgba(51, 51, 51, 0.363);
     width: 1173px;
     height: 50px;
-    
+    border-radius: 6px;
+
 }
 li{
     float: left;
