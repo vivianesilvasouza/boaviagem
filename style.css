@@ -29,14 +29,13 @@ body{
 }
 .logo a{
     position: absolute;
-    top: 15px;
-    left: 15px;
+    top: 39px;
     z-index: 3;
     background: url(img/logo.png) no-repeat;
     width: 205px;
     height: 178px;
     text-indent: -9000px;
-    margin: -23px 0px 0px 60px;
+    margin: 0px 0px 0px 77px;
 
 
 }
@@ -44,7 +43,7 @@ body{
     top: 0;
     right: 0;
     background: url(img/fundo.png) no-repeat left;
-    width: 600px;
+    width: 716px;
     height: 250px;
     position: absolute;
     z-index: 2;
@@ -55,9 +54,57 @@ body{
     padding-top: 15px;
 }
 #menu-locais{
-    border-bottom: 1px solid #544141;;
+    border-bottom: 1px solid #544141;
     border-top: 1px solid #544141;
-    padding-bottom: 5px;
-    font-size: 0.8em;
-    color: white;
+    font-size: 0.82em;
+    color: rgb(17, 17, 17);
+   
+}
+#menu-locais .locais{
+    float: left;
+    line-height: 2.1em;
+    
+}
+a{
+    text-decoration: none;
+}
+a.reserva{
+    text-transform: uppercase;
+    background: #fffffe;
+    color: black;
+    padding:5px 10px;
+    float:right;
+    margin: 1px;
+
+}
+#segundomenu{
+
+    margin: 20px 20px 20px 72px;
+}
+ul{
+    margin:0;
+    padding: 0;
+    list-style: none;
+}
+ul#navegacao a{
+    text-transform: uppercase;
+    font-size: 1.20em;
+    padding: 5px;
+    color: black;
+    line-height: 35px;
+}
+ul#navegacao{
+    float: left;
+}
+ul#navegacao a:hover {
+    background: rgb(255, 255, 252);
+
+}
+.promocao{
+    width: 200px;
+    height: 164px;
+    float: right;
+    box-shadow: 0 0 5px 0 rgba(168, 168, 168, 0.5);
+    border-radius: 10px 10px 10px 10px;
+
 }
