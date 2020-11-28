@@ -1,31 +1,87 @@
-*{
+
+ *{
     margin: 0;
     padding: 0;
 }
 body{
     font-family: Georgia, 'Times New Roman', Times, serif;
 }
-#container{
+h2{
+    text-align: center;
+    margin: 10px;
+    font-size: 50px;
+}
+@keyframes example {
+    0%   {background:url(img/dubai.jpg) no-repeat}
+    25%  {background:url(img/italia.jpg) no-repeat}
+    50%  {background:url(img/natal.jpg) no-repeat}
+    100% {background:url(img/ilha.jpg) no-repeat}
+  }
+ nav ul {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    overflow: hidden;
+    border: 1px solid #e7e7e7;
+    background-color: #020202;
+  }
+  nav, ul {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    overflow: hidden;
+    border: 1px solid #e7e7e7;
+    background-color: #020202;
+    
+  }
+  
+  li {
+    float: left;
+  }
+  
+  li a {
+    display: block;
+    color:  #f1c904;
+    text-align: center;
+    padding: 14px 0px;
+    text-decoration: none;
+    width: 210px;
+  }
+  
+  li a:hover:not(.active) {
+    background-color: rgb(255, 255, 255);
+  }
+  
+  li a.active {
+    color: rgb(10, 10, 10);
+    background-color: #facd06;
+  }
+  #container{
     background: rgb(253, 87, 10);
     margin: 0 auto;
     min-width: 740px;
     max-width:  1366px;
-}
-#topo{
+  }
+  #topo{
     background: white;
     height: 15.4em;
-    min-height: 250px;
+    min-height: 270px;
     position: relative;
 }
 #area-logo{
-    background: url(img/body.jpg) no-repeat left;
+    background: url(img/body.jpg) no-repeat ;
     width: 100%;
     height: 270px;
     position: absolute;
     top: 0;
     left: 0;
     z-index: 1;
-
+    animation-name: example;
+    animation-duration: 15s;
+    animation-iteration-count: infinite;
+    
+   
+    
 }
 .logo a{
     position: absolute;
@@ -36,8 +92,6 @@ body{
     height: 178px;
     text-indent: -9000px;
     margin: 0px 0px 0px 77px;
-
-
 }
 #menu{
     top: 0;
@@ -47,6 +101,7 @@ body{
     height: 270px;
     position: absolute;
     z-index: 2;
+    opacity: 0.8;
 }
 #conteudo-menu{
     margin-left: 292px;
@@ -81,20 +136,8 @@ a.reserva{
 
     margin: 20px 20px 20px 72px;
 }
-ul{
-    margin:0;
-    padding: 0;
-    list-style: none;
-}
-ul#navegacao a{
-    text-transform: uppercase;
-    font-size: 1.20em;
-    padding: 5px;
-    color: black;
-    line-height: 35px;
-}
 #pesquisa{
-    
+   
     border-radius: 5px;
     padding: 2px;
     text-align: right;
@@ -103,11 +146,10 @@ ul#navegacao a{
     margin: 2px;
     
 }
-
 .button {
     display: inline-block;
     border-radius: 4px;
-    background-color: #fa9108ab;
+    background-color: #faad08;
     border: none;
     color: #FFFFFF;
     text-align: center;
@@ -143,5 +185,28 @@ ul#navegacao a{
     opacity: 1;
     right: 0;
   }
+  #promocao{
+    height: 450px;
+    width: 280px;
+    display: inline-block;
+    margin: 50px;
+    box-shadow: 0 0 5px 0 rgba(168, 168, 168, 0.5);
+    border-radius: 20px  20px 20px 20px;
+}
+.imagemcidade{
+    height: 200px;
+    width: 258px;
+    margin: 10px;
+    border-radius: 10px 10px 0px 0px;
+}
+#paris{
+    background: url(img/paris.jpg) no-repeat;
 
-
+}
+.descricao{
+    height: 200px;
+    width: 258px;
+    border: 10px;
+    margin: 10px;
+    text-align: center;
+}

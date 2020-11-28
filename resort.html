@@ -1,59 +1,70 @@
+
 <!DOCTYPE html>
-<html lang="pt-br">
-
-<head>
-    <title>Boa Viagem: A sua melhor viagem é aqui</title>
-    <meta charset="utf-8">
-    <script src='https://kit.fontawesome.com/a076d05399.js'></script>
-    <link rel=" stylesheet" type="text/css" href="style.css">
-</head>
-
-<body>
-
+<html>
+    <head>
+        <title>Boa Viagem: A sua melhor viagem é aqui</title>
+        <meta charset="utf-8">
+        <script src='https://kit.fontawesome.com/a076d05399.js'></script>
+        <link rel=" stylesheet" type="text/css" href="style.css">
+    </head>
+   <body>
+    <nav>
+        <ul>
+            <li><a class="active" href="#home">Home</a></li>
+            <li><a href="">Pacotes</a></li>
+            <li><a href="">Hotel</a></li>
+            <li><a href="">Resort</a></li>
+            <li><a href="">Cruzeiro</a></li>
+            <li><a href="">Passagem</a></li>
+        </ul>
+    </nav>
     <div id="container"><!--inicio do container-->
-
-        <div id='topo'><!--inicio do topo-->
+        <div id='topo'> <!--inicio do topo-->
             <div id="area-logo">
                 <h1 class="logo"><a href="">Boa Viagem</a></h1>
             </div>
-            <div id="menu"> <!--inicio menu superior-->
-                <div id="conteudo-menu">
-                   <div id="menu-locais">
-                       <span class="locais"><a href=""><i class='far fa-question-circle'> Precisa de ajuda?</i></a></span>
-                       <a  class="reserva" href="">Entrar</a>
-                       <a  class="reserva" href="">Cadastre-se</a>
-                       <div style="clear: both;"></div>
-                   </div> <!--fim menu superior-->
+            <div id="menu"><!--inicio do menu-->
 
+                <div id="conteudo-menu">
+                    <div id="menu-locais">
+                        <span class="locais"><a href=""><i class='far fa-question-circle'> Precisa de
+                                    ajuda?</i></a></span>
+                        <a class="reserva" href="">Entrar</a>
+                        <a class="reserva" href="">Cadastre-se</a>
+                        <div style="clear: both;"></div>
+                    </div>
                     <div id="segundomenu">
-                        <form >
-                            <div id='pesquisa'>Origem:<input type="text" name=""><br>Destino<input type="text" name=""><br>
-                           Data de entrada:<input type="date" id="datafinal" min="2020-05-01" max="2022-01-31"><br>
-                            Data de saída:
-                            <input type="date" id="datafinal" min="2020-05-01" max="2022-01-31"><br>
-                        
-                           
+                        <form>
+                            <div id='pesquisa'>Origem:<input type="text" name=""><br>Destino<input type="text"
+                                    name=""><br>
+                                Data de entrada:<input type="date" id="datafinal" min="2020-05-01" max="2022-01-31"><br>
+                                Data de saída:
+                                <input type="date" id="datafinal" min="2020-05-01" max="2022-01-31"><br>
+
+
                                 Adultos<input type="number" min="1" max="10">
                                 Crianças<input type="number" min="1" max="10"><br>
                                 Quartos<input type="number" min="1" max="10">
-                            
+
                             </div>
                             <button class="button" style="vertical-align:middle"><span>Buscar </span></button>
-                           
+
                         </form>
+                    </div>
                 </div>
-            </div> <!--fim menu superior-->
+            </div><!--fim do menu-->
         </div> <!--fim do topo-->
-
-       
     </div><!--fim do container-->
+    <h2>Promoção</h2>
+
+    <div id="promocao">
+        <div id="paris" class="imagemcidade">
+        </div>
+        <div class="descricao"><b>París</b><br>
+        </div>
+    </div>
         
-    
-         
-
-</body>
 
 
-
-
+   </body>
 </html>
