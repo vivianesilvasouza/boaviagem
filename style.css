@@ -7,15 +7,16 @@ body{
     font-family: Georgia, 'Times New Roman', Times, serif;
 }
 h2{
-    text-align: center;
-    margin: 10px;
-    font-size: 50px;
+  font-size: 35px;
+  color: #232323;
+  text-align: center;
+  margin-top: 30px;
 }
 @keyframes example {
     0%   {background:url(img/dubai.jpg) no-repeat}
     25%  {background:url(img/italia.jpg) no-repeat}
     50%  {background:url(img/natal.jpg) no-repeat}
-    100% {background:url(img/ilha.jpg) no-repeat}
+    100% {background:url(img/ciene9.jpg) no-repeat}
   }
  nav ul {
     list-style-type: none;
@@ -186,27 +187,60 @@ a.reserva{
     right: 0;
   }
   #promocao{
-    height: 450px;
-    width: 280px;
+    height: 445px;
+    width: 312px;
     display: inline-block;
-    margin: 50px;
+    margin: 55px;
     box-shadow: 0 0 5px 0 rgba(168, 168, 168, 0.5);
     border-radius: 20px  20px 20px 20px;
+    float: left;
+    background: #fad608e5;
+
 }
 .imagemcidade{
-    height: 200px;
-    width: 258px;
-    margin: 10px;
-    border-radius: 10px 10px 0px 0px;
+  height: 200px;
+  width: 292px;
+  margin: 10px;
+  border-radius: 10px 10px 0px 0px;
+
+}
+#ilhabela{
+    background: url(img/ciene2.jpg) no-repeat;
+
 }
 #paris{
-    background: url(img/paris.jpg) no-repeat;
-
+  background: url(img/paris.jpg) no-repeat;
+}
+#disney{
+  background: url(img/disney.jpg) no-repeat;
 }
 .descricao{
     height: 200px;
-    width: 258px;
+    width: 291px;
     border: 10px;
     margin: 10px;
     text-align: center;
+    font-size: 25px;
+    color: #0e0d0d;
+}
+.cidade{
+  font-size: 15px;
+  font-family: Georgia;
+  
+  
+}
+.preco{
+	font-size: 30px;
+	font-family: tahoma;
+	color: rgb(2, 7, 85);
+	padding: 10px 15px 12px 20px;
+	line-height: 96px;
+   
+	
+}
+.parcela{
+	font-size: 19px;
+	font-family: tahoma;
+	color: rgb(10, 65, 247);
+   
 }
